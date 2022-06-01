@@ -1,0 +1,23 @@
+package com.syntex.project;
+
+import java.util.Arrays;
+
+public class group10 {
+	
+	public static int getSecondLargest(int[] num, int total){  
+		Arrays.sort(num);  
+		return num[total-2];  
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+// 10.Write a java program to find the second largest number in the array?
+
+		
+		int [] num= {123,542325,89652,1245567,544321};
+		
+		System.out.println("Second Largest: "+getSecondLargest(num,5));
+
+}
+}
